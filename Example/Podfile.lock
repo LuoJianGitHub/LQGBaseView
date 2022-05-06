@@ -1,0 +1,43 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - LQGBaseView (1.0.0):
+    - LQGBaseView/BaseController (= 1.0.0)
+    - LQGBaseView/BaseView (= 1.0.0)
+    - LQGBaseView/Protocol (= 1.0.0)
+  - LQGBaseView/BaseController (1.0.0):
+    - FDFullscreenPopGesture
+    - LQGBaseView/Protocol
+    - LQGCategory
+    - LQGMacro
+    - WebViewJavascriptBridge (~> 6.0.3)
+  - LQGBaseView/BaseView (1.0.0):
+    - LQGBaseView/Protocol
+  - LQGBaseView/Protocol (1.0.0)
+  - LQGCategory (1.0.0)
+  - LQGMacro (1.0.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - LQGBaseView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FDFullscreenPopGesture
+    - LQGCategory
+    - LQGMacro
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  LQGBaseView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  LQGBaseView: 1bd9188e1671d7f0926a172df2a201f7749c8543
+  LQGCategory: d06e3e77818efa42e810aeebc493f3cb122522aa
+  LQGMacro: 83996fc0371fe853771123e3dc879908765bc44a
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 553767e03cec02098b895e8a7974e6b837d712d8
+
+COCOAPODS: 1.11.2
